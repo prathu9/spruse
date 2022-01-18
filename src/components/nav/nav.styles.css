@@ -1,7 +1,9 @@
 nav{
     width:800px;
-    height:45px;
-    /* transform: translateY(-100px); */
+    height:45px;  
+}
+
+.desktop-nav{
     animation: slideFromTop 1s forwards;
 }
 

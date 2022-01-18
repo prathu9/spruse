@@ -1,15 +1,9 @@
-// import { useLayoutEffect } from 'react';
-
 import './nav.styles.css';
 
 
 const Nav = () => {
-    // useLayoutEffect(() => {
-    //     window.onload = () => document.querySelector('nav').style.animation = 'slideFromTop 1s forwards';
-    // },[])
-
     return(
-        <nav>
+        <nav className="desktop-nav">
             <ul>
                 <li>Home</li>
                 <li>About</li>
