@@ -1,0 +1,12 @@
+.service-info-container{
+    padding: 30px 0;
+    border:0.5px solid rgba(0,0,0,0.2);
+    box-shadow: 2px 0px 5px rgba(0 0 0/20%),
+    -2px 0px 5px rgba(0 0 0/20%);
+}
+
+@media screen and (max-width: 870px){
+    .service-info-container{
+        display: none;
+    }
+}

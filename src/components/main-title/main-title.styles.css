@@ -1,0 +1,36 @@
+.main-title-container{
+    width:100%;
+    font-family: sans-serif;
+}
+
+.main-title-container h1, h4, h5{
+    text-align: center;
+    margin-bottom:20px;
+}
+
+.main-title-container h1{
+    color: rgba(0,0,0,.8);
+    font-family:'Radhnika Bold', sans-serif;
+    font-size: 2.5rem;
+}
+
+.main-title-container h4{
+    font-weight:500;
+    font-size:0.8em;
+    color:#e87a61;
+}
+
+.main-title-container h5{
+    color: #7a7a7a;
+    font-size: 0.8em;
+    font-weight: 500;
+    font-style: italic;
+}
+
+@media screen and (max-width: 870px){
+    .main-title-container h4,
+    .main-title-container h5{
+        width:90%;
+        text-align: center !important;
+    }
+}

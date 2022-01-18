@@ -1,0 +1,22 @@
+.service-info-box{
+    width:100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.service-info-box-img{
+    text-align: center;
+}
+
+.service-info-box-title{
+    text-align: center;
+    color:rgba(55, 72,64);
+    margin-top:8.5px;
+    margin-bottom:8.5px;
+    padding:0 20px;
+}
+
+.service-info-box-description{
+    text-align:center;
+    margin:0 0 8.5px;
+    padding:0 20px 40px;
+}

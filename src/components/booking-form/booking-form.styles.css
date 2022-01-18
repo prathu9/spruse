@@ -1,0 +1,226 @@
+.booking-form{
+    width:60%;
+    min-width:320px;
+    font-family: Arial, Helvetica, sans-serif;
+    border:0.5px solid rgba(0,0,0,0.2);
+    box-shadow: 2px 0px 5px rgba(0 0 0/20%),
+    -2px 0px 5px rgba(0 0 0/20%);
+}
+
+.form-title-container{
+    position: relative;
+    margin:5px 0;
+    padding:10px 40px;
+}
+
+.form-title-container:after{
+    content:"";
+    width:90%;
+    height:0;
+    padding:0;
+    position:absolute;
+    bottom:0;
+    left:50%;
+    transform:translateX(-50%);
+    border:0.2px solid rgba(140,140,140,0.2);
+    background-color: rgba(140,140,140,0.2);
+    outline:none;
+}
+
+.booking-form .form-title,
+.booking-form .sub-title{
+    font-weight:200;
+    text-align:center;
+    color: #373e4a;
+    margin:17px 0 8.5px 0;
+}
+
+.booking-form .form-title{
+    font-size: 40px;
+}
+
+.booking-form .sub-title{
+    font-size:19px;
+}
+
+.select-booking-type,
+.select-home-info{
+    display:block;
+    height:40px;
+    color:#555;
+    border:1px solid #ccc;
+    padding:10px;
+    font-size: 16px;
+    outline:none;
+    cursor:pointer;
+}
+
+.select-booking-type{
+    width:100%;
+}
+
+.home-info{
+    display:flex;
+    justify-content: space-between;
+    align-content:space-between;
+    flex-wrap:wrap;
+}
+
+.select-home-info{
+    width: 40%;
+    margin-bottom:20px;
+}
+
+.add-extras{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.add-extras label{
+    width:20%;
+    margin-left:20px;
+}
+
+.frequency-info-description,
+.arrival-window-description,
+.customer-info-description,
+.address-info-description{
+    color:#999;
+    font-weight:100;
+    font-size: 16px;
+    margin-bottom:20px;
+    line-height: 1.25rem;
+}
+
+.frequency-input-container{
+    padding:25px 5px 10px 0px;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.customer-info-input-container,
+.address-info-input-container{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.customer-info-input-container input,
+.address-info-input-container input{
+    width:280px;
+    height:40px;
+    padding:10px;
+    color: #3a3c41;
+    margin-bottom:20px;
+    outline:none;
+    border: 1px solid #c6c6c7;
+    font-size: 16px;
+}
+
+.address-info-input-container input:nth-child(1){
+    width:70%;
+}
+
+.address-info-input-container input:nth-child(2){
+    width:20%;
+}
+
+.address-info-input-container input:nth-child(3){
+    width:45%;
+}
+
+.address-info-input-container select{
+    width:20%;
+    height:40px;
+    margin-bottom:20px;
+}
+
+.address-info-input-container input:nth-child(5){
+    width:20%;
+}
+
+.address-info-state{
+    outline:none;
+    cursor:pointer;
+}
+
+.customer-info-input-container input::placeholder,
+.address-info-input-container input::placeholder,
+.address-info-state::placeholder,
+.discount-section-input input::placeholder,
+.comment-input-container textarea::placeholder{
+    color:#aaa;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.customer-info-input-container input::-webkit-input-placeholder,
+.address-info-input-container input::-webkit-input-placeholder,
+.address-info-state::-webkit-input-placeholder,
+.discount-section-input input::-webkit-input-placeholder,
+.comment-input-container textarea::-webkit-input-placeholder{
+    color:#aaa;
+}
+
+.customer-info-input-container input:-ms-input-placeholder,
+.address-info-input-container input:-ms-input-placeholder,
+.address-info-state:-ms-input-placeholder,
+.discount-section-input input:-ms-input-placeholder,
+.comment-input-container textarea:-ms-input-placeholder{
+    color:#aaa;
+}
+
+.discount-section-input{
+    display: flex;
+    justify-content: space-between;
+}
+
+.discount-section-input input{
+    width:45%;
+    padding:10px 12px;
+    color:#3a3c41;
+    font-size:16px;
+    font-weight: 100;
+}
+
+.discount-section-input button{
+    width:45%;
+    background-color: #e87a61;
+    border:0;
+    color:#fff;
+}
+
+.comment-input-container textarea{
+    width:90%;
+    height:90px;
+    padding: 15px;
+    resize:none;
+    outline:none;
+}
+
+@media screen and (max-width:870px){
+    .booking-form{
+        width:100%;
+    }
+
+    .form-title-container{
+        padding:10px 20px;
+    }
+
+    .frequency-input-container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .customer-info-input-container input,
+    .address-info-input-container input,
+    .address-info-input-container input:nth-child(1),
+    .address-info-input-container input:nth-child(2),
+    .address-info-input-container input:nth-child(3),
+    .address-info-input-container select,
+    .address-info-input-container input:nth-child(5){
+        width:90%;
+    }
+}

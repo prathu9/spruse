@@ -1,0 +1,8 @@
+.checkbox-container input{
+    display: none;
+}
+
+.checkbox-container input:checked + div .check-box-btn{
+    background-color: #e87a61;
+    color:#fff;
+}

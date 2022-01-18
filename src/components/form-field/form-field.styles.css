@@ -1,0 +1,35 @@
+.form-field-container{
+    width:100%;
+}
+
+.form-field-container legend{
+    font-weight:100;
+    font-family:Arial, Helvetica, sans-serif;
+    /*color:#3a3c41;*/
+    color:#888;
+    font-size:20px;
+    display:inline-block;
+    margin:5px;
+    padding:10px 40px 0 35px;
+}
+
+.form-field{
+    position: relative;
+    border:none;
+    padding: 10px 40px 36px;
+}
+
+.form-field:after{
+    content:"";
+    width:90%;
+    height:0;
+    padding:0;
+    position:absolute;
+    bottom:0;
+    left:50%;
+    transform:translateX(-50%);
+    border:0.2px solid rgba(140,140,140,0.2);
+    background-color: rgba(140,140,140,0.2);
+    outline:none;
+}
+

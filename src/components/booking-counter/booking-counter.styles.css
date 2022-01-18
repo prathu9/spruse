@@ -1,0 +1,13 @@
+.booking-counter-container{
+    width:100%;
+    min-width:320px;
+    padding: 40px 20px 70px;
+}
+
+.booking-form-container{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
