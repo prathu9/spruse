@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/spruse/static/css/main.4ba9b956.css",
-    "main.js": "/spruse/static/js/main.7e6aa0a5.js",
+    "main.css": "/spruse/static/css/main.f51b83db.css",
+    "main.js": "/spruse/static/js/main.98b4035b.js",
     "static/media/radhnika-next-bold.ttf": "/spruse/static/media/radhnika-next-bold.bf783d6152ac68d3ac47.ttf",
     "static/media/spruse-logo.png": "/spruse/static/media/spruse-logo.8e33fc577563d51f5dfa.png",
     "index.html": "/spruse/index.html",
-    "main.4ba9b956.css.map": "/spruse/static/css/main.4ba9b956.css.map",
-    "main.7e6aa0a5.js.map": "/spruse/static/js/main.7e6aa0a5.js.map"
+    "main.f51b83db.css.map": "/spruse/static/css/main.f51b83db.css.map",
+    "main.98b4035b.js.map": "/spruse/static/js/main.98b4035b.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ba9b956.css",
-    "static/js/main.7e6aa0a5.js"
+    "static/css/main.f51b83db.css",
+    "static/js/main.98b4035b.js"
   ]
 }
